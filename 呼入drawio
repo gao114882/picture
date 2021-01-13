@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-13T04:05:31.745Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="51iDwH70r3y6m4hO5qCh" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-13T04:16:29.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="lharNz_oeUqmO8umRLfX" version="14.1.9" type="github">
   <diagram id="tUO6dUaN0UDWT1G3U4lq" name="第 1 页">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,11 +21,6 @@
         </mxCell>
         <mxCell id="QU5gWW1N3cwyJ42cCWfb-7" value="2.获取服务端rtp IP和Port" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="150" width="150" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="QU5gWW1N3cwyJ42cCWfb-68" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="QU5gWW1N3cwyJ42cCWfb-35">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="362" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="QU5gWW1N3cwyJ42cCWfb-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE0EF;" vertex="1" parent="1">
           <mxGeometry x="240" y="260" width="250" height="100" as="geometry" />
@@ -121,24 +116,20 @@
         <mxCell id="QU5gWW1N3cwyJ42cCWfb-42" value="PlayerFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="960" y="570" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QU5gWW1N3cwyJ42cCWfb-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.61;entryY=1.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QU5gWW1N3cwyJ42cCWfb-43" target="QU5gWW1N3cwyJ42cCWfb-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="393" y="520" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="QU5gWW1N3cwyJ42cCWfb-43" value="SipinInputor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="950" y="510" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QU5gWW1N3cwyJ42cCWfb-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QU5gWW1N3cwyJ42cCWfb-52">
+        <mxCell id="QU5gWW1N3cwyJ42cCWfb-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="QU5gWW1N3cwyJ42cCWfb-52" target="QU5gWW1N3cwyJ42cCWfb-35">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="450" y="364" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="415" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="QU5gWW1N3cwyJ42cCWfb-71" value="11. callInInit&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QU5gWW1N3cwyJ42cCWfb-70">
           <mxGeometry x="0.1827" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="163.33" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QU5gWW1N3cwyJ42cCWfb-52" value="callIn strategy&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE0EF;" vertex="1" parent="1">
@@ -195,6 +186,23 @@
           <mxGeometry x="-0.1148" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QU5gWW1N3cwyJ42cCWfb-72" value="" style="endArrow=classic;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="QU5gWW1N3cwyJ42cCWfb-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="570" as="sourcePoint" />
+            <mxPoint x="240" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QU5gWW1N3cwyJ42cCWfb-73" value="12.CallInInit" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QU5gWW1N3cwyJ42cCWfb-72">
+          <mxGeometry x="-0.4048" relative="1" as="geometry">
+            <mxPoint x="-40" y="-48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QU5gWW1N3cwyJ42cCWfb-74" value="创建uuid的Session" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="310" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
